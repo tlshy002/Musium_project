@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="../css/Membership.css">
+</head>
+<body>
+    <div class="circle"></div>
+    <header>
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <div><a href="index.html"></a></div>
+                    <p id="title"><a href="index.html">Musium</a></p>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="Membership.html">실시간 리뷰</a></li>
+                        <li><a href="Musical_1.html">공연중인 작품</a></li>
+                        <li><a href="Musical_2.html">공연 예정작</a></li>
+                    </ul>
+                </div>
+                <div class="sub">
+                    <a href="Musical_1.html">
+                        <div class="search"></div>
+                    </a>
+
+                    <ul>
+                        <li><a href="Login.html">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+
+            <form name="user_info">
+                <fieldset>
+                    <div>
+                        <h2>회원가입</h2>
+                        <p>뮤지컬 관련 소식을 받아보세요</p>
+                        <br><br>
+
+                        <div class="ID">
+                            <input type="text" id="email" name="userID" placeholder="이메일" required>
+                        </div>
+                        <br>
+
+                        <div class="user_name">
+                            <div class="name">
+                                <input type="text" id="name" name="userName" placeholder="이름" required>
+                            </div>
+                        </div>
+
+                        <div class="PW">
+                            <input type="password" id="password" name="userPW" placeholder="비밀번호" required>
+                        </div>
+                        <br>
+
+                        <div class="PW_check">
+                            <input type="password" id="pass_check" name="userPWC" placeholder="비밀번호 확인" required>
+                        </div>
+                        <br>
+
+                        <div class="nickname">
+                            <input type="text" id="nickname" name="userNN" placeholder="닉네임" required>
+                        </div>
+                        <br>
+
+
+                        <div>
+                            <input type="submit" value="가입하기">
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <script src="../js/auth.js"></script>
+</body>
+</html>
